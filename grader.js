@@ -39,7 +39,7 @@ var assertFileExists = function(infile) {
 };
 
 var assertUrlExists = function(url) {
-    // to be completed
+    // pass through
     return url;
 };
 
@@ -64,9 +64,6 @@ var checkHtmlFile = function(htmlfile, checksfile) {
 	out[checks[ii]] = present;
     }
     return out;
-};
-
-var checkHtmlUrl = function(htmlurl, checksfile) {
 };
 
 var clone = function(fn) {
