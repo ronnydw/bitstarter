@@ -3,7 +3,7 @@
 .env
 
 # npm packages
-node_modules
+# node_modules # Heroku gives error when these are not on git: Cannot find module ./proto
 
 # Mac
 .DS_Store
