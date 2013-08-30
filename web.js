@@ -23,6 +23,12 @@ app.get('/contact', function(request, response) {
   response.render("contact");
 });
 
+// Render about page
+app.get('/about', function(request, response) {
+  response.render("about");
+});
+
+
 // Render example.com/orders
 app.get('/orders', function(request, response) {
   global.db.Order.findAll().success(function(orders) {
